@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 
-import '../../data/model/product_model.dart';
 import '../../../../core/utils/app_styles.dart';
+import '../../data/model/product_model.dart';
 import 'product_card.dart';
 
 class ProductsGrid extends StatelessWidget {
@@ -36,9 +36,8 @@ class ProductsGrid extends StatelessWidget {
             ),
           ),
         ),
-        SliverToBoxAdapter(child: Gap( 24.h)),
+        SliverToBoxAdapter(child: Gap(24.h)),
       ],
     );
   }
 }
-

@@ -149,6 +149,13 @@ class ProductCard extends StatelessWidget {
   }
 }
 
+
+
+
+
+
+
+/// extracted as flutter widgtet
 class _QuantityController extends StatelessWidget {
   final int quantity;
   final VoidCallback onIncrement;

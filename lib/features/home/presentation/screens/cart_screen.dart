@@ -19,6 +19,7 @@ class CartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.backGround,
+
       appBar: AppBar(
         backgroundColor: AppColors.backGround,
         elevation: 0,

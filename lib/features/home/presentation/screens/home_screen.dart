@@ -2,6 +2,7 @@ import 'package:exam/core/utils/app_assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gap/gap.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../../data/repo/home_repo.dart';
 import '../cubit/home_cubit.dart';
@@ -30,7 +31,7 @@ class HomeScreen extends StatelessWidget {
           ),
           actions: [
             const CartBadgeIcon(),
-            SizedBox(width: 20.w),
+            Gap(20.w),
           ],
         ),
         body: BlocBuilder<HomeCubit, HomeState>(

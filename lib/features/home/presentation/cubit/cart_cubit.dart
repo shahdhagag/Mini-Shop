@@ -24,8 +24,6 @@ class CartCubit extends Cubit<List<CartItem>> {
       // If not found → add new CartItem
       updatedCart.add(CartItem(product: product));
     }
-
-    // Emit new updated list
     emit(List.from(updatedCart));
   }
 

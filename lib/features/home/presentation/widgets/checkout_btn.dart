@@ -16,7 +16,7 @@ class CheckOutButton extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(16.w, 12.h, 16.w, 24.h),
       child: SizedBox(
         width: double.infinity,
-        height: 54.h,
+        height: 50.h,
         child: ElevatedButton(
           onPressed: () {},
           style: ElevatedButton.styleFrom(
